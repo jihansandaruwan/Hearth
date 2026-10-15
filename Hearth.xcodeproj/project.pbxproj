@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		H10000000000000000000023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = H10000000000000000000004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = H10000000000000000000001;
+			remoteInfo = Hearth;
+		};
+		H10000000000000000000024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = H10000000000000000000004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = H10000000000000000000001;
+			remoteInfo = Hearth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		H10000000000000000000007 /* Hearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hearth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		H10000000000000000000008 /* HearthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		H10000000000000000000009 /* HearthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		H1000000000000000000000A /* Hearth */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Hearth;
+			sourceTree = "<group>";
+		};
+		H1000000000000000000000B /* HearthTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HearthTests;
+			sourceTree = "<group>";
+		};
+		H1000000000000000000000C /* HearthUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HearthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		H10000000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		H10000000000000000000005 = {
+			isa = PBXGroup;
+			children = (
+				H1000000000000000000000A /* Hearth */,
+				H1000000000000000000000B /* HearthTests */,
+				H1000000000000000000000C /* HearthUITests */,
+				H10000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		H10000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				H10000000000000000000007 /* Hearth.app */,
+				H10000000000000000000008 /* HearthTests.xctest */,
+				H10000000000000000000009 /* HearthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		H10000000000000000000001 /* Hearth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000032 /* Build configuration list for PBXNativeTarget "Hearth" */;
+			buildPhases = (
+				H10000000000000000000011 /* Sources */,
+				H10000000000000000000012 /* Frameworks */,
+				H10000000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				H1000000000000000000000A /* Hearth */,
+			);
+			name = Hearth;
+			packageProductDependencies = (
+			);
+			productName = Hearth;
+			productReference = H10000000000000000000007 /* Hearth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		H10000000000000000000002 /* HearthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000033 /* Build configuration list for PBXNativeTarget "HearthTests" */;
+			buildPhases = (
+				H10000000000000000000014 /* Sources */,
+				H10000000000000000000015 /* Frameworks */,
+				H10000000000000000000018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				H10000000000000000000021 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				H1000000000000000000000B /* HearthTests */,
+			);
+			name = HearthTests;
+			packageProductDependencies = (
+			);
+			productName = HearthTests;
+			productReference = H10000000000000000000008 /* HearthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		H10000000000000000000003 /* HearthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H10000000000000000000034 /* Build configuration list for PBXNativeTarget "HearthUITests" */;
+			buildPhases = (
+				H10000000000000000000016 /* Sources */,
+				H10000000000000000000017 /* Frameworks */,
+				H10000000000000000000019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				H10000000000000000000022 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				H1000000000000000000000C /* HearthUITests */,
+			);
+			name = HearthUITests;
+			packageProductDependencies = (
+			);
+			productName = HearthUITests;
+			productReference = H10000000000000000000009 /* HearthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H10000000000000000000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					H10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					H10000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = H10000000000000000000001;
+					};
+					H10000000000000000000003 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = H10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = H10000000000000000000031 /* Build configuration list for PBXProject "Hearth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = H10000000000000000000005;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = H10000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				H10000000000000000000001 /* Hearth */,
+				H10000000000000000000002 /* HearthTests */,
+				H10000000000000000000003 /* HearthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		H10000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		H10000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		H10000000000000000000016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		H10000000000000000000021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = H10000000000000000000001 /* Hearth */;
+			targetProxy = H10000000000000000000023 /* PBXContainerItemProxy */;
+		};
+		H10000000000000000000022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = H10000000000000000000001 /* Hearth */;
+			targetProxy = H10000000000000000000024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		H10000000000000000000041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		H10000000000000000000042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		H10000000000000000000043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hearth;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		H10000000000000000000044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hearth;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		H10000000000000000000045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearth";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		H10000000000000000000046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hearth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hearth";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		H10000000000000000000047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Hearth;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		H10000000000000000000048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hearth.tv.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Hearth;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H10000000000000000000031 /* Build configuration list for PBXProject "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000041 /* Debug */,
+				H10000000000000000000042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000032 /* Build configuration list for PBXNativeTarget "Hearth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000043 /* Debug */,
+				H10000000000000000000044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000033 /* Build configuration list for PBXNativeTarget "HearthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000045 /* Debug */,
+				H10000000000000000000046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H10000000000000000000034 /* Build configuration list for PBXNativeTarget "HearthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000047 /* Debug */,
+				H10000000000000000000048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H10000000000000000000004 /* Project object */;
+}

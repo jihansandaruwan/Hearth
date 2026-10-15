@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "recipe-hopper.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
