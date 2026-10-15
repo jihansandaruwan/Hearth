@@ -47,7 +47,7 @@ struct ShelfHomeView: View {
             pointAtPreferred()
         }
         .onChange(of: meal) { _, _ in
-            pointAtPreferred()
+            rememberVisibleCard()
         }
         .navigationTitle("Recipes")
     }
@@ -60,11 +60,17 @@ struct ShelfHomeView: View {
     }
 
     private func pointAtPreferred() {
-        let id = preferredID
-        focusedID = id
-        let rememberedIsVisible = focusedRecipeID.map { visibleIDs.contains($0) } ?? false
-        if let id, !rememberedIsVisible {
+        rememberVisibleCard()
+        focusedID = preferredID
+    }
+
+    /// The filter keeps focus on its own button; only the remembered card changes.
+    private func rememberVisibleCard() {
+        if let id = preferredID {
             focusedRecipeID = id
+        }
+        if let focusedID, !visibleIDs.contains(focusedID) {
+            self.focusedID = preferredID
         }
     }
 

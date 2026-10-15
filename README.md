@@ -42,7 +42,7 @@ In Xcode, Product > Test.
 - `RecipeFilterTests` checks All, Quick, Rice plate, After dinner, and an empty category.
 - `FavouriteStoreTests` saves a recipe, reloads it, blocks a duplicate id, and removes one.
 - `CookSessionTests` checks the first step, the last step, going back, and an empty step list.
-- `HearthUITests` opens pol sambol, saves it, opens Saved, and removes it. The test launches with `-ui-testing` so it uses an empty save list.
+- `HearthUITests` uses the Siri Remote, because tvOS has no tap. One test opens pol sambol, saves it, goes back, and checks the highlight is on the same card. The other starts cooking, presses Next to the last step, and checks Done returns to the recipe. Both launch with `-ui-testing` so they use an empty save list.
 
 I wrote these tests with the code. I have not run them. This project was prepared on Windows, which cannot run the Apple TV simulator or `xcodebuild`. The result below is the honest status until a Mac runs Product > Test.
 
@@ -70,11 +70,12 @@ No screenshots yet. Take them from the Apple TV simulator after the first succes
 - Prep and cook minutes are split from the original demo total so the recipe page can show both. They are still estimates.
 - Saved recipes stay on one Apple TV only. There is no iPhone companion.
 - The first build on a Mac may ask you to pick a development team.
+- There is no app icon yet, so the simulator home screen shows a blank tile.
 
 ## Later
 
 - Photos I take myself, in place of the generated demo pictures.
-- A top-shelf image for the Apple TV home screen.
+- An app icon and a top-shelf image for the Apple TV home screen.
 - More dishes, still stored in the app.
 
 ## Where things are

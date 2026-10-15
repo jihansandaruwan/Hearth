@@ -1,4 +1,5 @@
 import Foundation
+import Observation
 
 /// Saved recipe ids. UserDefaults is enough because the list is only strings.
 @Observable

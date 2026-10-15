@@ -25,7 +25,7 @@ struct RootView: View {
             List(selection: $section) {
                 ForEach(HearthSection.allCases, id: \.self) { item in
                     Label(item.title, systemImage: item.symbol)
-                        .tag(item)
+                        .tag(Optional(item))
                         .accessibilityIdentifier(item.accessibilityID)
                 }
             }

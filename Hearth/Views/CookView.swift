@@ -56,21 +56,18 @@ struct CookView: View {
                 .buttonStyle(HearthControlButtonStyle())
                 .accessibilityIdentifier("cook.previous")
 
-                if session.isLast {
-                    Button("Done") {
+                // One button, so focus stays put when Next turns into Done.
+                Button(session.isLast ? "Done" : "Next") {
+                    if session.isLast {
                         dismiss()
-                    }
-                    .buttonStyle(HearthControlButtonStyle(isOn: true))
-                    .accessibilityIdentifier("cook.done")
-                } else {
-                    Button("Next") {
+                    } else {
                         withAnimation(.easeInOut(duration: 0.2)) {
                             session.advance()
                         }
                     }
-                    .buttonStyle(HearthControlButtonStyle(isOn: true))
-                    .accessibilityIdentifier("cook.next")
                 }
+                .buttonStyle(HearthControlButtonStyle(isOn: true))
+                .accessibilityIdentifier(session.isLast ? "cook.done" : "cook.next")
             }
             .focusSection()
         }
